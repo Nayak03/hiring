@@ -20,7 +20,7 @@ pipeline {
                 echo "Deploying to dev"
             }
         }
-        stage('Tomcat Deploy - Production') {
+        stage('Tomcat Deploy - Prod') {
             when {
                 branch 'main'
             } 
